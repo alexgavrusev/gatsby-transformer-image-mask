@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-transformer-image-mask",
+  "version": "1.0.0",
+  "description": "Gatsby transformer plugin for generating image masks",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "image-mask"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepare": "npm run build"
+  },
+  "author": "Alex Gavrusev <alex@gavrusev.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "babel-preset-gatsby-package": "^0.7.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "p-queue": "^6.6.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "gatsby-plugin-sharp": "^2.0.0",
+    "gatsby-core-utils": "^1.0.0"
+  }
+}
